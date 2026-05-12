@@ -16,6 +16,18 @@ header {
     text-align: center;
     background-color: #c8a4e9;
     padding: 20px;
+    background: url('./../img/omori-starry-background.png') repeat 0 0;
+    background-repeat: round;
+    animation: animate-bg 30s infinite linear normal;
+    animation-fill-mode: forwards; /* Makes it so animation doesn't jump back to beginning. */
+    background-size: auto 130%;
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes animate-bg {
+    from {background-position: 0 0;}
+    to {background-position: 2560px 1080px;}
 }
 
 header .pfp {
@@ -34,4 +46,6 @@ header h1 {
     font-size: 60px;
     letter-spacing: 8px;
     margin: 10px 0 20px 0;
+    display: inline;
+    background-color: aliceblue;
 }
