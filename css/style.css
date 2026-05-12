@@ -18,11 +18,16 @@ header {
     padding: 20px;
 }
 
-header img {
+header .pfp {
     width: 300px;
     height: 250px;
     border: 20px solid #9ec5e2;
     border-radius: 35%;
+    background-image: url('./../img/omori-mirror-friends.webp');
+    background-repeat: no-repeat;
+    background-position: center center; /* X Y value */
+    background-size: cover;
+    margin: 0 auto;
 }
 
 header h1 {
