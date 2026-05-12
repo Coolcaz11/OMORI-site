@@ -21,8 +21,6 @@ header {
     animation: animate-bg 30s infinite linear normal;
     animation-fill-mode: forwards; /* Makes it so animation doesn't jump back to beginning. */
     background-size: auto 130%;
-    height: 100%;
-    width: 100%;
 }
 
 @keyframes animate-bg {
