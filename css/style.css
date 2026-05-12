@@ -1,3 +1,32 @@
+@font-face {
+    font-family: 'OMORI-2';
+    src: url(../fonts/OMORI_GAME2.ttf);
+}
+
 body {
     background-color: #a168f9;
+    font-family: 'OMORI-2';
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #c8a4e9;
+    padding: 20px;
+}
+
+header img {
+    width: 300px;
+    height: 250px;
+    border: 20px solid #9ec5e2;
+    border-radius: 35%;
+}
+
+header h1 {
+    font-size: 60px;
+    letter-spacing: 8px;
+    margin: 10px 0 20px 0;
 }
