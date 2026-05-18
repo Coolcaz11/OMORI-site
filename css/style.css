@@ -7,9 +7,15 @@ body {
     background-color: #a168f9;
     font-family: 'OMORI-2';
 }
+
 html, body {
     margin: 0;
     padding: 0;
+}
+
+p, ul, ol {
+    font-size: 30px;
+    line-height: 30px;
 }
 
 header {
@@ -46,4 +52,17 @@ header h1 {
     margin: 10px 0 20px 0;
     display: inline;
     background-color: aliceblue;
+}
+
+h2 {
+    font-size: 46px;
+}
+
+main {
+    width: 800px;
+    margin: 0 auto;
+}
+
+main img {
+    max-width: 100%;
 }
