@@ -18,6 +18,33 @@ p, ul, ol {
     line-height: 30px;
 }
 
+ul, ol{
+    padding: 0;
+    list-style-position: inside;
+}
+
+a{
+    color: rgb(246,192,248);
+}
+
+a:hover{
+    color: rgb(158, 197, 226)
+}
+
+a:active{
+    color: rgb(202, 139, 221)
+}
+
+a:visited{
+    color: rgb(187, 194, 199)
+}
+
+p.caption{
+    font-size: 16px;
+    color: rgb(158, 197, 226);
+    font-style: oblique;
+}
+
 header {
     text-align: center;
     background-color: #c8a4e9;
