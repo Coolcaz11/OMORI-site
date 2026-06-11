@@ -93,3 +93,14 @@ main {
 main img {
     max-width: 100%;
 }
+
+footer{
+    background-color: rgb(200,164,233);
+    padding: 40px;
+    text-align: center;
+}
+
+footer .content{
+    width: 800px;
+    margin: 0 auto;
+}
