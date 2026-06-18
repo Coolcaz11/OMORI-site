@@ -8,6 +8,11 @@ body {
     font-family: 'OMORI-2';
 }
 
+.rwbody {
+    background-color: #E7C29D;
+    font-family: 'OMORI-2';
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -24,19 +29,29 @@ ul, ol{
 }
 
 a{
-    color: rgb(246,192,248);
+    color: rgb(246,192,248)
+}
+
+a.linkb{
+    color: rgb(254,251,255)
 }
 
 a:hover{
     color: rgb(158, 197, 226)
 }
 
+a.linkb:hover{
+    color: rgb(202, 139, 221)
+}
 a:active{
     color: rgb(202, 139, 221)
 }
 
 a:visited{
     color: rgb(187, 194, 199)
+}
+a.linkb:visited{
+    color: #000000;
 }
 
 p.caption{
@@ -45,11 +60,28 @@ p.caption{
     font-style: oblique;
 }
 
+p.basilcaption{
+    font-size: 16px;
+    color: #F3F3F3;
+    font-style: oblique;
+}
+
 header {
     text-align: center;
     background-color: #c8a4e9;
     padding: 20px;
     background: url('./../img/omori-starry-background.png') repeat 0 0;
+    background-repeat: round;
+    animation: animate-bg 30s infinite linear normal;
+    animation-fill-mode: forwards; /* Makes it so animation doesn't jump back to beginning. */
+    background-size: auto 130%;
+}
+
+.realworld {
+    text-align: center;
+    background-color: #c8a4e9;
+    padding: 20px;
+    background: url('./../img/rw-background.jpg') repeat 0 0;
     background-repeat: round;
     animation: animate-bg 30s infinite linear normal;
     animation-fill-mode: forwards; /* Makes it so animation doesn't jump back to beginning. */
@@ -71,6 +103,13 @@ header .pfp {
     background-position: center center; /* X Y value */
     background-size: cover;
     margin: 0 auto;
+}
+
+header .pfp.basil {
+    background-image: url('./../img/Basil-Sunny.webp');
+    background-position: center center; /* X Y value */
+    background-size: cover;
+    border-color: #FFEEC0;
 }
 
 header h1 {
@@ -104,6 +143,12 @@ main img {
 /* footer */
 footer{
     background-color: rgb(200,164,233);
+    padding: 40px;
+    text-align: center;
+}
+
+.footerb{
+    background-color: #FFEEC0;
     padding: 40px;
     text-align: center;
 }
