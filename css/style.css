@@ -6,6 +6,7 @@
 body {
     background-color: #a168f9;
     font-family: 'OMORI-2';
+    cursor: url("./../img/cursor.cur"), auto;
 }
 
 .rwbody {
